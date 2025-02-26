@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "colect_the_eyes"
+	group: "7E01FA8515B374B9"
+	icon: {
+		Count: 1
+		id: "endrem:magical_eye"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2631BB7C2E4FA32D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "340543695EC7EE4D"
+			rewards: [{
+				id: "5890D013D6476F40"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Cada olho é encontrado em estruturas diferentes ou biomas entre todas as dimensões, alguns são obtidos sob condições específicas."
+			tasks: [{
+				id: "0017C244E627BD75"
+				title: "The Eyes"
+				type: "checkmark"
+			}]
+			title: "Os olhos!"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "59BF505DD9B6CC4A"
+			rewards: [
+				{
+					id: "156F136DB5D6F39B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67321C34C03BB46F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64DE7B015A300335"
+				item: {
+					Count: 1
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.9761904761904674d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "08519A6117206A2D"
+			rewards: [
+				{
+					id: "2705C7EF0B9F7B4B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "426A9C02C7321F60"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31AF7ECDF5BE1DC5"
+				item: {
+					Count: 1
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.9761904761904674d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "6DE5EB84DC913CE2"
+			rewards: [
+				{
+					id: "569F85AD2E06C1CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4AF680006E690C12"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7318F51A1A060763"
+				item: {
+					Count: 1
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.9761904761904674d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "13FAA498EC6B032F"
+			rewards: [
+				{
+					id: "277CA81D1B5FF305"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "005BA0164AA81E8D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24B458209E9FD66C"
+				item: {
+					Count: 1
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.023809523809532607d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "0283C741EB4C81F9"
+			rewards: [
+				{
+					id: "08FBC4F68AE57F1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2356FFD8E439278D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7532FC0AE2106C40"
+				item: {
+					Count: 1
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0238095238095326d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "4B81D2C7053EF4DC"
+			rewards: [
+				{
+					id: "72A5877421F178C2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "132DF71BE5F9A8F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E266BC26056A6F6"
+				item: {
+					Count: 1
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0238095238095326d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "23B315D3195BF6A7"
+			rewards: [
+				{
+					id: "13051CB2C5F4CBD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7B156729A1F1696A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C943793954A81C0"
+				item: {
+					Count: 1
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0238095238095326d
+			y: -1.2190476190476218d
+		}
+		{
+			id: "7D61D87A1104FD0A"
+			rewards: [
+				{
+					id: "473A3B49602BE6C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "171384288118A825"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4342918E1886501D"
+				item: {
+					Count: 1
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.9761904761904674d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "19A35D86CF95A472"
+			rewards: [
+				{
+					id: "64A812161C423613"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "37729FD66C7F5369"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53A4D392A468FFC1"
+				item: {
+					Count: 1
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.9761904761904674d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "173621C1778B01C4"
+			rewards: [
+				{
+					id: "28E34762B028C784"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0B68369AD1C99D41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33DB34C193BCF2BC"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.9761904761904674d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "27BE7535D7B568C1"
+			rewards: [
+				{
+					id: "69B4BBB985F60476"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4F431AF55346FAC8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "740898837A516874"
+				item: {
+					Count: 1
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.023809523809532607d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "037FDFB3552563C9"
+			rewards: [
+				{
+					id: "209696E594F64C94"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "44E71AB17F09889F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4B7923EA212DBDFB"
+				item: {
+					Count: 1
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0238095238095326d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "0D2527515DE1C849"
+			rewards: [
+				{
+					id: "61FE506128D5A966"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E5C897BC020FE89"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DF84DE7B5313559"
+				item: {
+					Count: 1
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0238095238095326d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "0EAFDB16E647DEF6"
+			rewards: [
+				{
+					id: "767EA9EB55837FC4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0AB23CC4EEE5AFA0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B67007E68A44080"
+				item: {
+					Count: 1
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0238095238095326d
+			y: -0.21904761904762182d
+		}
+		{
+			id: "4CCB47D61A63E0A4"
+			rewards: [
+				{
+					id: "1F775BE65595472F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "15853C539546D756"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B606C02B8F5F1CA"
+				item: {
+					Count: 1
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.4761904761904674d
+			y: 0.7809523809523782d
+		}
+		{
+			id: "2896EE00CE2E38D0"
+			rewards: [
+				{
+					id: "4834D8AA8E28CDBC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1922A494DA80EB2C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5732DA556FD0763A"
+				item: {
+					Count: 1
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5238095238095326d
+			y: 0.7809523809523782d
+		}
+	]
+	title: "&9Colete os olhos&r"
+}

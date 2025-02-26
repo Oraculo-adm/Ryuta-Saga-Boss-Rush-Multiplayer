@@ -1,0 +1,1109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ciscos"
+	group: "52D6ADCE053AE61B"
+	icon: "cisco_mod:radiant_ruby"
+	id: "4A1A16B400B60EF0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "cisco_mod:ciscos_armor_helmet"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "55AFCAC64ADA44BD"
+			rewards: [{
+				id: "7818DA75415FBC08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Aqui voce encontrará a fonte de seu maior poder, siga as quests e encontre seu destino!"
+			tasks: [{
+				id: "656A565DA086CC68"
+				type: "checkmark"
+			}]
+			title: "Cisco's Content"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55AFCAC64ADA44BD"]
+			id: "5F4BD2187CAB7B0C"
+			rewards: [{
+				id: "04A7011EC5CE75FF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Adquira o FellKing Set utilizando a armadura de netherite + Darksteel na Smithing Table."
+			tasks: [{
+				id: "5EF6A49A0A597E22"
+				title: "set fellking usando armor de netherita + darksteel na smithing table"
+				type: "checkmark"
+			}]
+			title: "Dicas #2"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55AFCAC64ADA44BD"]
+			id: "57252A602156D699"
+			rewards: [{
+				id: "654EAEC7E9E1554A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Adquira o set de Sylvi's juntando o FellKing Set + Frigidium na Smithing Table!"
+			tasks: [{
+				id: "5D9C5625E56E4210"
+				title: "set sylvi's usando fellking set + frigidium na smithing table"
+				type: "checkmark"
+			}]
+			title: "Dicas #1"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06D521FA392B6560"]
+			id: "700611AF73F2A152"
+			rewards: [
+				{
+					id: "2011A45C9A68CCCF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2F1D9D35CEE69B6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				id: "36BBE45CAECBFEF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:slumbering_equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7F720A944DF504B2"
+				"765A45CCCD998667"
+				"15A6397F85F1FA04"
+			]
+			id: "49E3211991B90538"
+			rewards: [
+				{
+					id: "6146D4F23D4A5441"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "249B937375906255"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0503ECA8A938FB86"
+				item: "cisco_mod:radiant_ruby"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2AEA6855839897AD"
+				"22C1EA8A78CC670A"
+			]
+			id: "7F720A944DF504B2"
+			rewards: [
+				{
+					id: "4CE955B6D801252A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "20250477E57DCB11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "567352D0D01833F0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:true_dragons_breath"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["538F56FCFCE92741"]
+			id: "765A45CCCD998667"
+			rewards: [
+				{
+					id: "26289DDA24B0F912"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "59AA68C2C62F3F19"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5646E8918B1BB671"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"204AA9E45A615C16"
+				"563784E74B3A0E05"
+			]
+			id: "15A6397F85F1FA04"
+			rewards: [
+				{
+					id: "65D7B2DA30B8CCAD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "72BE67350FF792FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Criado usando Brightsteel e Darksteel, alem de materiais vanilla."
+			tasks: [
+				{
+					id: "695E27439BBA4FE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:ember_core"
+					}
+					type: "item"
+				}
+				{
+					id: "3C7A849152AA58D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:dark_core"
+					}
+					type: "item"
+				}
+				{
+					id: "02F266FBADE4C2EC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:thunder_core"
+					}
+					type: "item"
+				}
+				{
+					id: "5157795CA20979FA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:wind_core"
+					}
+					type: "item"
+				}
+				{
+					id: "3CA619913B01C30F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:light_core"
+					}
+					type: "item"
+				}
+				{
+					id: "16C6A0409F804D0E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:glacial_core"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08F3552D5B507BA1"]
+			id: "34280B1760B496D1"
+			rewards: [
+				{
+					count: 8
+					id: "4D8B2C4B791B3D9B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dragonitegear:dragonite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "12A47F337DECC6CA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Pode ser encontrado no End."
+			tasks: [{
+				count: 6L
+				id: "0E033B519D8FF8F8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dragonitegear:dragonite_ingot"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34280B1760B496D1"]
+			id: "3B2AECD25F3FC23F"
+			rewards: [
+				{
+					id: "6D00E187AC6B65CC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "20C7469FABE99448"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Utilize para forjar os lingotes e criar itens."
+			tasks: [{
+				id: "4F5ECCFD385C5E60"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dragonitegear:dragonite_forge"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B2AECD25F3FC23F"]
+			id: "2AEA6855839897AD"
+			rewards: [
+				{
+					count: 8
+					id: "3C62DAD73F7408C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "dragonitegear:dragonite_infused_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1BAE4BE2EA750773"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 6L
+				id: "662D73773F398D08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "dragonitegear:dragonite_infused_ingot"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08F3552D5B507BA1"]
+			id: "22C1EA8A78CC670A"
+			rewards: [
+				{
+					count: 6
+					id: "5EF50F2268F4FA35"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "irons_spellbooks:dragonskin"
+					}
+					type: "item"
+				}
+				{
+					id: "5894CCEB902D81E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Mate o dragão para obter as escamas."
+			tasks: [{
+				id: "79D09B2084F7EAD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:dragonskin"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			id: "204AA9E45A615C16"
+			rewards: [
+				{
+					count: 6
+					id: "1ED4BEA197C0A2DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:brightsteel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "1091229EF43083C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F7D97248789CAE9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Facilmente criada com materiais vanilla."
+			tasks: [{
+				count: 6L
+				id: "2B6ADBD7F7E8FECF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:brightsteel_ingot"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "563784E74B3A0E05"
+			rewards: [
+				{
+					count: 6
+					id: "4A214B5224901F40"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:darksteel"
+					}
+					type: "item"
+				}
+				{
+					id: "457229A49A787E30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6E6381575B6F587A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Criado usando Brighsteel e netherite na Smithing Table."
+			tasks: [{
+				count: 3L
+				id: "2E6FAC3939E241E6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:darksteel"
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06D521FA392B6560"]
+			id: "56B1C5DC4EBE9C11"
+			rewards: [
+				{
+					id: "3434C06F4EC4E883"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2495DE3B8649B353"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "O primeiro conjunto que você pode fazer para começar no modpack!"
+			tasks: [
+				{
+					id: "1EA75BD6E6ADBD56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:adventurer_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67DD10E5AC994C9E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:adventurer_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0722BC8A7A3BC184"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:adventurer_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B574D44C4BD8A6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:adventurer_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Adventurer Set"
+			x: 2.500000000000007d
+			y: -1.7857142857142776d
+		}
+		{
+			dependencies: ["563784E74B3A0E05"]
+			id: "0F145C9730D2E4A7"
+			rewards: [
+				{
+					id: "1A4F551FB509D301"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "53B85A23EC8F7FAF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Uma Paxel que será muito útil na sua jornada."
+			tasks: [{
+				id: "46C82F938F8726D3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:darksteel_multitool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["204AA9E45A615C16"]
+			id: "6BAA92E757827087"
+			rewards: [
+				{
+					id: "778C89169E418FDD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5611211C6ED4C312"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "779384116D36540B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:brightsteel_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6559671DB5000203"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:brightsteel_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CDB5C030344F93B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:brightsteel_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DF9B4456D63A1BF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:brightsteel_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Brightsteel Set"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["49E3211991B90538"]
+			id: "0C29D529F99E80E4"
+			rewards: [
+				{
+					id: "05D122C8F531D77F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "09AA5F50E7FEF2E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Criado juntando Radiant Ruby com Brightsteel na Smithing Table."
+			tasks: [
+				{
+					id: "5A66D2F99A5F09E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:ciscos_armor_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "480C6DDD14B0455B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:ciscos_armor_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2477856395A2F1F2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:ciscos_armor_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "663628097F08F1CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:ciscos_armor_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49E3211991B90538"]
+			id: "76A94C89277AE030"
+			rewards: [{
+				id: "1E13D99DB74133B9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 2.5d
+			tasks: [{
+				id: "4C15CEDC80AF0A87"
+				item: {
+					Count: 1
+					id: "cisco_mod:equillibrium"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "06D521FA392B6560"
+			shape: "square"
+			tasks: [{
+				id: "6CB3EC24A799AA24"
+				title: "Kit inicial!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "538F56FCFCE92741"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "6280DEF4FC300E47"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			id: "08F3552D5B507BA1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "49840C0900233719"
+				type: "kill"
+				value: 1L
+			}]
+			x: 11.25d
+			y: -3.75d
+		}
+	]
+	title: "&bCisco's Content &4&l[WiP!]&r&r"
+}

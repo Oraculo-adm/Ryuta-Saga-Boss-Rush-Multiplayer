@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mutant_monsters"
+	group: "17FDD95D0F8DBB10"
+	icon: {
+		Count: 1
+		id: "mutantmonsters:endersoul_hand"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "324870BF0CD76DFD"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "mutantmonsters:endersoul_hand"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "744A9323B9E3EF09"
+			rewards: [{
+				id: "3669A9F602533313"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Uhhhh, mutant creatures duh."
+			tasks: [{
+				id: "3A696E2409D2054E"
+				type: "checkmark"
+			}]
+			title: "Mutant Monsters"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["744A9323B9E3EF09"]
+			id: "6B2FAF651E69499C"
+			rewards: [{
+				id: "608661342EB9C92A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado naturalmente pelo mundo."
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				icon: "minecraft:zombie_head"
+				id: "0093A64A3D81235A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["744A9323B9E3EF09"]
+			id: "6FBED8A4EE38BE61"
+			rewards: [{
+				id: "6F0A5A30B3668C67"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado naturalmente pelo mundo."
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: "minecraft:skeleton_skull"
+				id: "7C22F8C5FE06296F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["744A9323B9E3EF09"]
+			id: "46F6B71E7C8DDD15"
+			rewards: [{
+				id: "58D7FC4F91D80591"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado naturalmente pelo mundo."
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				icon: "minecraft:creeper_head"
+				id: "4B9D6AD7FC276A9E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["744A9323B9E3EF09"]
+			id: "34D665514498C05B"
+			rewards: [{
+				id: "6CCC72D245F5B8DE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado naturalmente pelo mundo."
+			tasks: [{
+				entity: "mutantmonsters:mutant_enderman"
+				icon: "mutantmonsters:mutant_enderman_spawn_egg"
+				id: "6706FB9C74EB4170"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "&cMutant Monsters"
+}

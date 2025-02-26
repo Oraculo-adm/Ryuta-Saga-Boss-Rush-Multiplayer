@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "galosphere"
+	group: "17FDD95D0F8DBB10"
+	icon: {
+		Count: 1
+		id: "galosphere:saltbound_tablet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4BA19607F6BEF339"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "galosphere:item/saltbound_tablet_using"
+				}
+			}
+			id: "6F4DAF9845E5CF38"
+			rewards: [{
+				id: "7532BE3F05D5B730"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5AEEC9000B3B834F"
+				type: "checkmark"
+			}]
+			title: "Galosphere"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F4DAF9845E5CF38"]
+			id: "2A49FAB6E8AD72F5"
+			rewards: [
+				{
+					id: "2EF9F16CF42CF50E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5AEDE0B6E971AB11"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:uncommon"
+							}
+							gem: "apotheosis:core/guardian"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Encontrado em cavernas especiais encontradas pelo mundo."
+			tasks: [{
+				entity: "galosphere:berserker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "galosphere:saltbound_tablet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "62B86515697B71AD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "&cGalosphere"
+}

@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bon_in_chaos"
+	group: "17FDD95D0F8DBB10"
+	icon: "born_in_chaos_v1:nightmare_stalker_skull"
+	id: "15EF4EE17247EDBA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["029B7348912FEF4F"]
+			id: "2E8C6F16EE5A2ADA"
+			rewards: [{
+				id: "6B19848E6917D3D0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "O Missionário raramente aparecerá em qualquer lugar do mundo superior após o décimo dia no mundo, acompanhado pela mensagem \"Uma força poderosa invadiu seu mundo...\"."
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:missionary_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "54E983070474936D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["029B7348912FEF4F"]
+			id: "4489B47C79493FE4"
+			rewards: [{
+				id: "36BB302A0C6DDFAA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Cabeça de Abóbora só pode ser invocado e não aparecerá naturalmente. Para invocá-lo, clique com o botão direito no Infernal Evil Pumpkin (seja ele fabricado ou encontrado naturalmente) usando Elixir de Transmutação."
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "229565C028C5D468"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "born_in_chaos_v1:death_totem"
+			id: "029B7348912FEF4F"
+			rewards: [{
+				id: "43E4A4157E153E6C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2E9D5359C9BB8939"
+				title: "Born in Chaos"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["029B7348912FEF4F"]
+			id: "27D2D23F1EBDCE91"
+			rewards: [{
+				id: "29E23AA4F6AD7CBA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "O Pesadelo começa a aparecer após a terceira noite em qualquer lugar do mundo superior."
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:dark_atrium"
+				id: "1D4006673EE48CC8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["029B7348912FEF4F"]
+			id: "2C3B0C8925BAD22A"
+			rewards: [{
+				id: "3D808EEBBE1653F7"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "O Rouba-vidas começará a observar e caçar você após o 10º dia no seu mundo."
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "126995C4949C7412"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "&cBorn in Chaos"
+}

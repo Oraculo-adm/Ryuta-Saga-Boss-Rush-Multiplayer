@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aether"
+	group: "7ED0E3931E016EA1"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "aether:aether_portal_frame"
+	}
+	id: "13193640860B28FB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "aether:aether_portal_frame"
+		}
+		id: "498A60C24A96050E"
+		rewards: [
+			{
+				id: "3AFD4300EC834B5D"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			{
+				count: 10
+				id: "3D77AFD2EDB91C68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			dimension: "aether:the_aether"
+			id: "091CB1E425AB92EE"
+			type: "dimension"
+		}]
+		title: "Vá até o Aether!"
+		x: 0.5d
+		y: 0.5d
+	}]
+	title: "&3Aether"
+}

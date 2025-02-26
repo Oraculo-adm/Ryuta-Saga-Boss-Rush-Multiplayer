@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "terramity"
+	group: "17FDD95D0F8DBB10"
+	icon: "terramity:hover_charm_plus_plus"
+	id: "3A3C52434BDBDC9F"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "terramity:fragile_divinity"
+			}
+			id: "7F646D2F5C275C1F"
+			rewards: [{
+				id: "5B8CD5EA568C597D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "25C201B0787535E4"
+				type: "checkmark"
+			}]
+			title: "Terramity"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F646D2F5C275C1F"]
+			id: "27DC7239206C112D"
+			rewards: [{
+				id: "505BF438757A4101"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado na Trial Tower."
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "terramity:guardians_hand"
+				}
+				id: "76AA404A4C0DD442"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F646D2F5C275C1F"]
+			id: "73E345F60FDCE9C8"
+			rewards: [{
+				id: "1E6EB1FDD9F886C2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "???"
+			tasks: [{
+				entity: "terramity:gundalf"
+				icon: {
+					Count: 1
+					id: "irons_spellbooks:archevoker_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "64D5A61890AB3BCC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F646D2F5C275C1F"]
+			id: "27F22DD5BCB3E5B6"
+			rewards: [{
+				id: "08CA1E9EB143BD8A"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "???"
+			tasks: [{
+				entity: "terramity:virtue"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "enigmaticaddons:forgotten_ice"
+				}
+				id: "1730438CD9713EB4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F646D2F5C275C1F"]
+			id: "350057C152C30B9D"
+			rewards: [{
+				id: "1933CDB80BE9A4F3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "???"
+			tasks: [{
+				entity: "terramity:enchanter_merlin"
+				icon: {
+					Count: 1
+					id: "terramity:conjuror_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "1068E97724FF2479"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F646D2F5C275C1F"]
+			id: "40147251F913D4F0"
+			rewards: [{
+				id: "5F8A532FC18D294E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "???"
+			tasks: [{
+				entity: "terramity:sorceress_circe"
+				icon: {
+					Count: 1
+					id: "terramity:cosmilite_armor_helmet"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				id: "192A305164C65EBD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "&cTerramity"
+}

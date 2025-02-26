@@ -1,0 +1,668 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop"
+	group: "0F09A53BCAE46159"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "born_in_chaos_v1:bagof_candy"
+	}
+	id: "5E8EC492714FF102"
+	images: [
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -0.9791666666666785d
+			y: 3.741666666666667d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.02083333333332149d
+			y: 3.741666666666667d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0400085034013529d
+			y: 3.734693877551024d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0208333333333215d
+			y: 3.741666666666667d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0208333333333215d
+			y: 3.741666666666667d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 4.019600340136051d
+			y: 3.734693877551038d
+		}
+		{
+			height: 1.2d
+			image: "farmersdelight:block/tray_top"
+			rotation: 0.0d
+			width: 1.2d
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "simplyswords:enigma"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5560DFCB0F14677B"
+			rewards: [{
+				id: "1DA6930E705F2C51"
+				item: {
+					Count: 1
+					id: "simplyswords:enigma"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 600L
+				id: "563F83FF1A13CDC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "&a&lEnigma&r&r"
+			x: -0.9791666666666785d
+			y: 3.741666666666667d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "simplyswords:shadowsting"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "747098A16A24AEC2"
+			rewards: [{
+				id: "0EEA375165B3DD1D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:shadowsting"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 500L
+				id: "60FBA70213C7B68A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "&1&lShadowsting&r&r"
+			x: 0.02083333333332149d
+			y: 3.741666666666667d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "simplyswords:whisperwind"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "6B832572E1961C0C"
+			rewards: [{
+				id: "355913BED602608B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:whisperwind"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 700L
+				id: "21FAB8F368B4421D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "&6&lWhisperwind&r&r"
+			x: 4.0196003401360585d
+			y: 3.734693877551038d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplyswords:caelestis"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "06E96928DCDF26FD"
+			rewards: [{
+				id: "43BB2AC895A7843D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:caelestis"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 1500L
+				id: "1F640EB44831CA65"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "&l&5Caelestis&r&r"
+			x: 3.0208333333333215d
+			y: 3.741666666666667d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "simplyswords:magiscythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0E3908D96E678170"
+			rewards: [{
+				id: "24E3E24895A15CB3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:magiscythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 600L
+				id: "3377F354F35803A0"
+				item: {
+					Count: 600
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "&l&9Magiscyte&r&r"
+			x: 2.0208333333333215d
+			y: 3.741666666666667d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "simplyswords:wickpiercer"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+			id: "51150EDFEA5715EA"
+			rewards: [{
+				id: "16BFB79863029F61"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "simplyswords:wickpiercer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 700L
+				id: "34274D89499C873D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "&e&lWickpiercer&r&r"
+			x: 1.04000850340136d
+			y: 3.7551020408163325d
+		}
+		{
+			icon: "born_in_chaos_v1:bagof_candy"
+			id: "02C5101169D921DC"
+			rewards: [{
+				count: 50
+				id: "6DD6393046D5C9B2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			size: 3.0d
+			subtitle: "Bem-vindo a loja do Ryuta! Aqui voce encontrará itens únicos (ou não), que só podem ser obtidos atraves da loja!"
+			tasks: [{
+				id: "0BBA788AF4A22EBB"
+				type: "checkmark"
+			}]
+			title: "Treasure Shop"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:string"
+			}
+			id: "1943EB8346E4C019"
+			rewards: [{
+				count: 64
+				id: "2D23435FDCF8C319"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 15L
+				id: "162DD3618577167D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "Linha"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:white_wool"
+			}
+			id: "74F114B863579759"
+			rewards: [{
+				count: 32
+				id: "7B52DF7F3C71AB4B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 25L
+				id: "074CD30C0B4AA593"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "Lã"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "origins:orb_of_origin"
+			}
+			id: "224F5716D6063581"
+			rewards: [{
+				id: "177A60ACCAC7CC7F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "origins:orb_of_origin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 80L
+				id: "114F0EFC13F96949"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "Orbe de Origem"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "apotheotic_additions:apotheotic_coin"
+			}
+			id: "65F4C9A179CD279A"
+			rewards: [{
+				count: 10
+				id: "542F80D4F081E673"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "apotheotic_additions:apotheotic_coin"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 50L
+				id: "514EBD860B037F00"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "Apotheotic Coin"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 7s
+					}]
+				}
+			}
+			id: "3CBE53DC8FA7F9BB"
+			rewards: [{
+				id: "6AB2D8FBFB6D079D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "infinite_durability_enchant:infinitedurability"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 150L
+				id: "3989BC4D9CB69D57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}]
+			title: "Encantamento da Infinidade"
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: "&6Loja do Ryuta"
+}

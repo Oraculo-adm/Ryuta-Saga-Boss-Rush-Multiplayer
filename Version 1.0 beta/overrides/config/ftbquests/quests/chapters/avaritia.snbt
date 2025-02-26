@@ -1,0 +1,734 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "avaritia"
+	group: "52D6ADCE053AE61B"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "avaritia:infinity_catalyst"
+		tag: { }
+	}
+	id: "7C3984D754A246EE"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "avaritia:infinity_ingot"
+				tag: { }
+			}
+			id: "0E360207C386347D"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Bem-vindo ao seu principal desafio dentro do modpack, o Avaritia! Consiga os itens mais poderosos disponiveis atraves dos craftings mais insanos!"
+			tasks: [{
+				id: "0909D684F4F35740"
+				type: "checkmark"
+			}]
+			title: "Avaritia"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "25B438467AEFDBDD"
+			rewards: [
+				{
+					id: "13D3070E74F702A6"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 1500
+					id: "07EA4D0C1C9EA09E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1FA1AFFCA806342F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_sword"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "1C5B742483349176"
+			rewards: [
+				{
+					id: "2418A2A037A90BD3"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 1500
+					id: "5B725BBFAED45F80"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0040A7729087E80D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "5B99E2496F4DC3B6"
+			rewards: [
+				{
+					id: "16A38B2CE64ABE69"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 1500
+					id: "56270653C5AEAF03"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D828A7B48E31EE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_pickaxe"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 10s
+						}]
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "574AC6F4BDD680E0"
+			rewards: [
+				{
+					id: "374E0E362C04D337"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 1500
+					id: "2808B92D22886B70"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10480A40A242287C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_shovel"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "26C5BFAFD9DC3BDB"
+			rewards: [
+				{
+					id: "4EE73AF682EF02C8"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 1500
+					id: "1D05B23D338A84E7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04C2BDAB7680B761"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_axe"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "5D6D5398B2DC2C10"
+			rewards: [
+				{
+					id: "569327F23B74E5DB"
+					type: "xp_levels"
+					xp_levels: 150
+				}
+				{
+					count: 1500
+					id: "330B008D011949D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07B56241A7F2AF84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_hoe"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "6F4DB2B2ADD4FA4F"
+			rewards: [
+				{
+					id: "26A3A790490436A7"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 800
+					id: "3B0944EF406381D9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "594F8816855D9C1F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_helmet"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "31B29D88C0526D21"
+			rewards: [
+				{
+					id: "3ABEA84A29B4A8CB"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 800
+					id: "59D7411DC0B9C822"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64E2B5BC35B01EBD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_chestplate"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "056D73421B464A85"
+			rewards: [
+				{
+					id: "058B934B0963C19F"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 800
+					id: "6B3F691EEF957D9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "215C5BEB15FA0EE3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_leggings"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0E360207C386347D"]
+			id: "1C8E5D4D00B6866C"
+			rewards: [
+				{
+					id: "0FE1F603292A8B62"
+					type: "xp_levels"
+					xp_levels: 70
+				}
+				{
+					count: 800
+					id: "24E836423AD3E9BB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "601A4974B48C79F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_boots"
+					tag: {
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "6BA6AE153D4B4E2B"
+			rewards: [
+				{
+					id: "71BDC6E7AF3E65FF"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 200
+					id: "52DBDCA19B9A1030"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4AA31A1C0865F7DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "1F2A35F70B776ACC"
+			rewards: [
+				{
+					id: "438552C692685C58"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 200
+					id: "076BBD1C0189621A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6CB9E4898011D9BB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:infinity_catalyst"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "0EB33F75467D5CC5"
+			rewards: [
+				{
+					id: "0FF8400107E3E029"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 200
+					id: "251ECCFDE428673F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52045AADFE9E72E3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:neutronium_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "7CD8D656138CA96E"
+			rewards: [
+				{
+					id: "5E7D814758C6738F"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 200
+					id: "127E6393F476572B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0482D2B0B8E8DA1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:crystal_matrix_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "6D7BF99E11C05381"
+			rewards: [
+				{
+					id: "08B5B8ECA3ADCC70"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 200
+					id: "6014393DA29BD1A7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45D022F931222BAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:endest_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "1AB4B5EC1AF5086F"
+			rewards: [
+				{
+					id: "70C25014641F7E55"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+				{
+					count: 200
+					id: "0401BC88C07965D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cisco_mod:champion_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5702DEF7934F2EF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "avaritia:extreme_crafting_table"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+	]
+	title: "&bAvaritia"
+}

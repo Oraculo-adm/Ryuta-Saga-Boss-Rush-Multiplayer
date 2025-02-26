@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "voidscape"
+	group: "7ED0E3931E016EA1"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "voidscape:voidic_crystal"
+	}
+	id: "5E670AE1E4885E35"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "voidscape:voidic_crystal"
+		}
+		id: "49E40ED2DCA56B3F"
+		rewards: [
+			{
+				id: "522FEBECDB1F17B9"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			{
+				count: 10
+				id: "092B97083032C0B5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			dimension: "voidscape:void"
+			id: "40D08D20DC7FED02"
+			type: "dimension"
+		}]
+		title: "Vá até o Void!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&3Voidscape"
+}

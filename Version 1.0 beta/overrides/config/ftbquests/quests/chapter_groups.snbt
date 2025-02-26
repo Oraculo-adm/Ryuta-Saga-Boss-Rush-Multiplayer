@@ -1,0 +1,10 @@
+{
+	chapter_groups: [
+		{ id: "18663B0CCCFF4771", title: "&d&l----Bem-Vindo------" }
+		{ id: "7E01FA8515B374B9", title: "&d&l----Objetivos------" }
+		{ id: "0F09A53BCAE46159", title: "&d&l----Vantagens-----" }
+		{ id: "52D6ADCE053AE61B", title: "&d&l-----Destinos------" }
+		{ id: "17FDD95D0F8DBB10", title: "&d&l---Corrida de Boss--" }
+		{ id: "7ED0E3931E016EA1", title: "&d&l-----Dimensões-----" }
+	]
+}

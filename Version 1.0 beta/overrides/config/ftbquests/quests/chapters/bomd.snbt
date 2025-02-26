@@ -1,0 +1,205 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bomd"
+	group: "17FDD95D0F8DBB10"
+	icon: "bosses_of_mass_destruction:obsidian_heart"
+	id: "30C996B2CF943D34"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4747CDC87326055E"]
+			id: "67B9A48D52ADB7DE"
+			rewards: [
+				{
+					id: "386A5962D198CFD7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3A37C9F8CF498A8C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:uncommon"
+							}
+							gem: "apotheotic_additions:modded/felfire"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Encontrado em florestas subterrâneas no mundo superior."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:crystal_fruit"
+				id: "65969DFFFE5AEBD8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4747CDC87326055E"]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "36E3AF71F04ED3F6"
+			rewards: [
+				{
+					id: "2956D4E5F3ABC04E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3EA5D0C005394C2F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:mythic"
+							}
+							gem: "apotheotic_additions:modded/armor"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Encontrado no Nether, em estruturas quadradas."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "bosses_of_mass_destruction:blazing_eye"
+				}
+				id: "086D7677E6AFBE53"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4747CDC87326055E"]
+			id: "550110DB4EE7B499"
+			rewards: [
+				{
+					id: "1DBC4AC5F63F3A7C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1317676A7068988E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:epic"
+							}
+							gem: "apotheotic_additions:curios/reinforced"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Encontrado em torres localizadas em biomas gelados."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "3B7FD07877E0BA59"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4747CDC87326055E"]
+			id: "71CA2529487C27F1"
+			rewards: [
+				{
+					id: "53AB126AC5C67D09"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30521F6366E2F57E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "apotheosis:gem"
+						tag: {
+							affix_data: {
+								rarity: "apotheosis:common"
+							}
+							gem: "apotheosis:core/samurai"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Encontrado no End, nas Cidades do End."
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32D2990B3153C42F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "bosses_of_mass_destruction:void_thorn"
+			id: "4747CDC87326055E"
+			rewards: [{
+				id: "56394941AF942F70"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7F507AB9B1C1A20A"
+				title: "BoMD"
+				type: "checkmark"
+			}]
+			title: "Bosses of Mass Destruction"
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	title: "&cBoMD"
+}
