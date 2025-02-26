@@ -1,0 +1,197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "legendary_monsters"
+	group: "17FDD95D0F8DBB10"
+	icon: {
+		Count: 1
+		id: "legendary_monsters:soul_great_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "4AF07A00DB284348"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "legendary_monsters:guard_summoner"
+			id: "2A39DEEB895117A9"
+			rewards: [{
+				id: "08346B6EF8EFCBE6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "2F55C50912FFA00D"
+				type: "checkmark"
+			}]
+			title: "Legendary Monsters"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "40111B6E7C515518"
+			rewards: [{
+				id: "4A7F837BCB810AF4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado nas piramides do deserto."
+			tasks: [{
+				entity: "legendary_monsters:dune_sentinel"
+				icon: "legendary_monsters:ancient_sandstone_shard"
+				id: "6F150AA6883A14F5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "6D17C03ABD12019A"
+			rewards: [{
+				id: "410B349B1C44C80B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no Nether."
+			tasks: [{
+				entity: "legendary_monsters:ancient_guardian"
+				icon: "legendary_monsters:chiseled_ancient_dripstone_shard"
+				id: "0D0C634E95C20B7B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "40C286539475356C"
+			rewards: [{
+				id: "3BB222F1A105E787"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "???"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: "legendary_monsters:eye_of_air"
+				id: "2AA7A7F784FBE12C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "12CA355A30A81FF4"
+			rewards: [{
+				id: "42E91AC7A34653DA"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no End."
+			tasks: [{
+				entity: "legendary_monsters:endersent"
+				icon: "legendary_monsters:eye_of_chorus"
+				id: "598FCEE5D8D7612B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "1D70DD21BAA713BA"
+			rewards: [{
+				id: "1EBF37C15FFE9696"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado na torre shulker, no End."
+			tasks: [{
+				entity: "legendary_monsters:shulker_mimic"
+				icon: "legendary_monsters:large_shulker_shell"
+				id: "04FF9247BE68FD88"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "12843240D2C975C2"
+			rewards: [{
+				id: "4637F8A31AC066E0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no Nether, no bioma de areia das almas."
+			tasks: [{
+				entity: "legendary_monsters:skeletosaurus"
+				icon: "legendary_monsters:eye_of_sandstorm"
+				id: "6CA41ECC10730973"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "19528C532AB82396"
+			rewards: [{
+				id: "77CC39DBEF42BCA6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no Nether, na fortaleza das almas."
+			tasks: [{
+				entity: "legendary_monsters:withered_abomination"
+				icon: "legendary_monsters:withered_horn"
+				id: "5FAFE116A0B200A3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A39DEEB895117A9"]
+			id: "53D8795BFAFB388A"
+			rewards: [{
+				id: "0824B6BB35BEB948"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado em biomas gelados."
+			tasks: [{
+				entity: "legendary_monsters:frostbitten_golem"
+				icon: "legendary_monsters:primal_ice_shard"
+				id: "301F0DBAD4B5B785"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "&cLegendary Monsters"
+}

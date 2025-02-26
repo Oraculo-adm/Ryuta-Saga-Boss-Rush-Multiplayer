@@ -1,0 +1,845 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luminous_mods"
+	group: "18663B0CCCFF4771"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "luminousworld:beastiary"
+	}
+	id: "682E67B6917C484B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "luminousworld:beastiary"
+			id: "571D6DCF082537FD"
+			rewards: [{
+				id: "4C07CB5ED6F2100E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "Colete todos os troféis de cada criatura lendaria!"
+			tasks: [{
+				id: "60C6C7CB818B3963"
+				type: "checkmark"
+			}]
+			title: "Luminous Mods"
+			x: -0.5357142857142847d
+			y: -3.5d
+		}
+		{
+			id: "5C0BCF940C1D77BC"
+			rewards: [{
+				id: "339FB8D937719B6C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4AD043E822DC76A2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_nether:mushlin_spewer_trophy"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "49AD19D4132CFE7F"
+			rewards: [{
+				id: "6D4B129AC6ADDB7F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0B8916185A32FBE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_nether:executioner_trophy"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "35C745B68BE320E3"
+			rewards: [{
+				id: "30F577DD2A3D6D64"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "17F71D6B14897E0B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_nether:furnace_trophy"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "5458EA1E8308D0F6"
+			rewards: [{
+				id: "25D5854FB3341F89"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "521860F7B5894165"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:tree_ent_trophy"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "1D41E4B3125CF9ED"
+			rewards: [{
+				id: "3C74580FD5E5ABBB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "1123557A874E0D77"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:hermit_king_trophy"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "1CA3F87CADBCAC46"
+			rewards: [{
+				id: "5E7C4D8B7037DA1B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3E7E13CAE796EC47"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:mummy_trophy"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "69D62062F01862B7"
+			rewards: [{
+				id: "433B72101522E254"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0948803514103997"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:viper_trophy"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.6428571428571388d
+		}
+		{
+			id: "2C1EDAFF35BDF6D7"
+			rewards: [{
+				id: "349999A14671FC04"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5DEA7465E17DD500"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:yeti_trophy"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "24F627C0B1624B73"
+			rewards: [{
+				id: "19B00AF0E41C4369"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "20820B7B21627653"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:vile_gator_trophy"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "55AA9B437E5A47C7"
+			rewards: [{
+				id: "1997E2F99B8642D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2C1FADE030884531"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:phoenix_trophy"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "075DAEDC515583A4"
+			rewards: [{
+				id: "22AA527F75633937"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "45D427D25288E7C5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:bone_stalker_trophy"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "5F4E3E5965A18A58"
+			rewards: [{
+				id: "08694D7D6A0FA15B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "11E8340375FB9C2F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:spitter_trophy"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "6E202E9751BB6F62"
+			rewards: [{
+				id: "12FD0BFE4B0DAA66"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4653817DAFAFAE3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:executioner_trophy"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "34BBC9F3EFC24474"
+			rewards: [{
+				id: "46AC0A702C478E2E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0C08F4A1C02D316E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:furnace_trophy"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.6428571428571388d
+		}
+		{
+			id: "6E7FD0CE7F3B95F5"
+			rewards: [{
+				id: "3464D10741FFC6E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "414DE197C1BD1AD0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:horseless_headsman_trophy"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "400CB1EB40CAA906"
+			rewards: [{
+				id: "17D4459A5515CBC7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "043047BAB6569724"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_tree_ent_trophy"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "491BDEE108E1421B"
+			rewards: [{
+				id: "5FBAEF7E508EA123"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "07517B93DB554FE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_hermit_king_trophy"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "46B27D487B623F32"
+			rewards: [{
+				id: "2B0411FED4D572BA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "30609E0F76517DE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_mummy_trophy"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "5737813372B15B11"
+			rewards: [{
+				id: "1C184BB2DDBECDF1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "14BD45DE8E59EB33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_viper_trophy"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "331D2E0751FF2F21"
+			rewards: [{
+				id: "5A94168E2E6D21E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0170B8283EBCD904"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_yeti_trophy"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "6BC6CDF13EFF1D1E"
+			rewards: [{
+				id: "39821ADBF5EEEF7B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3B886AE9A09806F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_vile_gator_trophy"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.3571428571428612d
+		}
+		{
+			id: "6381166E3AE02A98"
+			rewards: [{
+				id: "469D9A77CB168B98"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2E073821EA794017"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_phoenix_trophy"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "40440301C19DB2D0"
+			rewards: [{
+				id: "2AD049D15E6749C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0637DA5E4CA4563B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_bone_stalker_trophy"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "38BD78A8D5924CDB"
+			rewards: [{
+				id: "4F70EFDED88EC9D9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2918CB02B3AAD77C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_spitter_trophy"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "6A079239AB1A36FB"
+			rewards: [{
+				id: "42A60F4354413949"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5EB920D092F36B2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:rare_executioner_trophy"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "42B9CBC8652D1506"
+			rewards: [{
+				id: "2F3FD5E09A913F2B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5679DF31AB1B0456"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:soul_furnace_trophy"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "75DE9CE426BBE02F"
+			rewards: [{
+				id: "3FB7631D948653DB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6222D286639CD14A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminous_beasts:scarecrow_trophy"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "128DC58526F54ED8"
+			rewards: [{
+				id: "4B6B4967EBC36CE6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2FE60FEECEA82558"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:tree_ant_trophy"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.3571428571428612d
+		}
+		{
+			id: "2BDE498FE51B9E75"
+			rewards: [{
+				id: "1E0C16B1CD1E42F0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "54DB88CEA0CE4D9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:king_crab_plaque"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.357142857142861d
+		}
+		{
+			id: "21B0E54BA91CA2EE"
+			rewards: [{
+				id: "4511E1F5CA0D015C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "22FB24C4986CAE62"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:mummy_trophy"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.357142857142861d
+		}
+		{
+			id: "37A6B6A91F8B7978"
+			rewards: [{
+				id: "19B3FBA630104D80"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "10F3DC7CB903D952"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:frost_golem_plaque"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.357142857142861d
+		}
+		{
+			id: "1543D02E0652B44A"
+			rewards: [{
+				id: "3EF4F75DB0DF88B4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "652BC138C321BCBF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:viper_plaque"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.357142857142861d
+		}
+		{
+			id: "5D921354B86C6451"
+			rewards: [{
+				id: "126299611DEA818E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "262B71CF0D6A028C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:pheonix_trophy"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.357142857142861d
+		}
+		{
+			id: "6C55B531DE0042CB"
+			rewards: [{
+				id: "35A6E1629D0FFA78"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "373EC930150C2AE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:croc_trophy"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.357142857142861d
+		}
+		{
+			id: "6E94A2F6AC421D7D"
+			rewards: [{
+				id: "29106DEB3DB27C2C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "273F1C1BB04923E1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "luminousworld:bone_stalker_trophy"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.357142857142861d
+		}
+	]
+	title: "&aColeção de Bestiário"
+}

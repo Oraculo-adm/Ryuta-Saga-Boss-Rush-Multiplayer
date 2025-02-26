@@ -1,0 +1,223 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "17FDD95D0F8DBB10"
+	icon: "cataclysm:cursed_eye"
+	id: "3C4161D5FC993FD3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:void_core"
+			id: "0E026416C5AA3833"
+			rewards: [{
+				id: "75F419C677AFFFBF"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3F70687E9670D10E"
+				title: "Cataclysm"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E026416C5AA3833"]
+			id: "5ACFD70E3F98CEF6"
+			rewards: [{
+				id: "13202E34497C7360"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no Nether, na estrutura do Soul Blacksmith."
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: "cataclysm:monstrous_eye"
+				id: "2403428E0E3A727B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "799FF970401B531B"
+			rewards: [{
+				id: "1853BBBE4FF7AF0F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Encontrado no End, na Ruined Citadel."
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "stalwart_dungeons:end_dungeon_spawner"
+				}
+				id: "6C983E51DCF2B93A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"799FF970401B531B"
+				"0E026416C5AA3833"
+			]
+			id: "6709E967E01A1F15"
+			rewards: [{
+				id: "1160AC391DE14738"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no End, na Ruined Citadel."
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_eye"
+				id: "68867C42ABCE2FE0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E026416C5AA3833"]
+			id: "072276A4CB3A427B"
+			rewards: [{
+				id: "3723526BAF6F3634"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no subsolo, na Ancient Factory."
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "0D38A442A3AEAC47"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E026416C5AA3833"]
+			id: "3E4734B22C7C1EAF"
+			rewards: [{
+				id: "0E7092367CF5DDA0"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no oceano, crie o item Abyssal Sacrifice para invocar o chefe."
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyss_eye"
+				id: "15144113173452AF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E026416C5AA3833"]
+			id: "06476E5CC5AA456A"
+			rewards: [{
+				id: "55A9F38DB200E30E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no deserto, em uma Cursed Pyramid."
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "4D73711271A3A152"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"57968DD2E2B47EAC"
+				"0E026416C5AA3833"
+			]
+			id: "1D2DF0AA8780C051"
+			rewards: [{
+				id: "1ABAD6617A615547"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado no Nether, deve derrotar outro guardião primeiro, ambos encontrados na Burning Arena."
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: "cataclysm:burning_ashes"
+				id: "7AF75396BADEFF60"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "57968DD2E2B47EAC"
+			rewards: [{
+				id: "655C777AE4BEB27F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "Encontrado no Nether, na Burning Arena."
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				icon: "cataclysm:dying_ember"
+				id: "40F38FE78FA6BEDC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E026416C5AA3833"]
+			id: "00D20CC896690039"
+			rewards: [{
+				id: "246DDBEB54CBC786"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado em uma grande estrutura semelhante a um castelo em biomas gelados."
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: "cataclysm:cursed_eye"
+				id: "3DC56CD7F3213DE8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "&cCataclysm"
+}

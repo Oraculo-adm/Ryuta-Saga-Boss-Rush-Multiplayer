@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bounties"
+	group: "0F09A53BCAE46159"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "waystones:bound_scroll"
+	}
+	id: "768A5E8D97331A6B"
+	images: [
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5037414965986144d
+			y: -1.198299319727873d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.0037414965986144466d
+			y: -1.198299319727873d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.9962585034013856d
+			y: 0.30170068027212693d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4962585034013856d
+			y: -1.198299319727873d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.4962585034013856d
+			y: 0.30170068027212693d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.0037414965986144466d
+			y: 0.30170068027212693d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5037414965986144d
+			y: 0.30170068027212693d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0037414965986144d
+			y: 0.30170068027212693d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "bosses_of_mass_destruction:textures/particle/magic_circle_23.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "aquamirae:treasure_pouch"
+			id: "5EE4B881F4580ED2"
+			rewards: [{
+				id: "09C3202791F7A8C9"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Drops de criaturas hostis = moedas!"
+			tasks: [{
+				id: "5F0A300027BA7B52"
+				type: "checkmark"
+			}]
+			title: "Bounties"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "1A4180F43C338183"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CA14CA728D99461"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "7299EFFFF7DCABFC"
+				title: "Mate 50 Zumbis"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Mate 50x Zumbis"
+			x: -0.0037414965986144466d
+			y: -1.198299319727873d
+		}
+		{
+			can_repeat: true
+			id: "74F0C18816421699"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67E3EE350355C764"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:phantom"
+				id: "1C25645B52318DC3"
+				title: "Mate 20x Phantoms"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.9962585034013856d
+			y: 0.30170068027212693d
+		}
+		{
+			can_repeat: true
+			id: "37FD8F4E54F151DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C8EA088D5E34237"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "18FD87ED3194677E"
+				title: "Mate 30 Esqueletos"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Mate 30x Esqueletos"
+			x: 1.4962585034013856d
+			y: -1.198299319727873d
+		}
+		{
+			can_repeat: true
+			id: "6AB64E70F5912A86"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A01C599099181FF"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "2B6A120B1F12D6C4"
+				title: "Mate 40x Esqueletos Wither"
+				type: "kill"
+				value: 40L
+			}]
+			x: -1.5037414965986144d
+			y: 0.30170068027212693d
+		}
+		{
+			can_repeat: true
+			id: "176FBBA8FC154ABE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E1E04DC3CFC3825"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "4D1780939A2D2265"
+				title: "Mate 45x Aranhas"
+				type: "kill"
+				value: 45L
+			}]
+			x: -0.0037414965986144466d
+			y: 0.30170068027212693d
+		}
+		{
+			can_repeat: true
+			id: "7C4A6E939D1265A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A6681B23A231F72"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "54502C863F5EAC04"
+				type: "kill"
+				value: 20L
+			}]
+			title: "Mate 20x Creepers"
+			x: 1.4962585034013856d
+			y: 0.30170068027212693d
+		}
+		{
+			can_repeat: true
+			id: "0C870F36CD4D467D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3400A4BC95DC5A55"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "599A02D8A4E93EC4"
+				title: "Mate 25x Blaze"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Mate 25x Blazes"
+			x: -3.0037414965986144d
+			y: 0.30170068027212693d
+		}
+		{
+			can_repeat: true
+			id: "1A22318C60CD5B49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76B9687FC6F9C770"
+				table_id: 1158187048362786407L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:ghast"
+				id: "7D947F3A761E6817"
+				title: "Ghast"
+				type: "kill"
+				value: 25L
+			}]
+			title: "Mate 25x Ghasts"
+			x: -1.5037414965986144d
+			y: -1.198299319727873d
+		}
+		{
+			id: "2D01C9778C52D789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60DCD054F1588BEF"
+				table_id: 4836178793050245001L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "55E3DF5BF4BFA4F3"
+				title: "Mate 1x Wither"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4B4D5B5BDFF875D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6601E79A709D5711"
+				table_id: 4836178793050245001L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "10A9AE999A13DC99"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mate 1x Warden"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "46695EC5CCE26944"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E00471A678768F8"
+				table_id: 4836178793050245001L
+				type: "loot"
+			}]
+			shape: "diamond"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "737D0C31647CF637"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Mate 1x Dragão do Ender"
+			x: -1.5d
+			y: 2.0d
+		}
+	]
+	title: "&6Caçadas"
+}

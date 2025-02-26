@@ -1,0 +1,122 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "17FDD95D0F8DBB10"
+	icon: {
+		Count: 1
+		id: "aquamirae:maze_rose"
+		tag: {
+			Damage: 0
+			Enchantments: [
+				{
+					id: "obscure_api:distance"
+					lvl: 3s
+				}
+				{
+					id: "obscure_api:fast_spin"
+					lvl: 5s
+				}
+			]
+		}
+	}
+	id: "34DFE91C7C26AFA8"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "aquamirae:rune_of_the_storm"
+			}
+			id: "686FB5B93859A199"
+			rewards: [{
+				id: "32CEED23C7A3E003"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "37DDA5CDCB6F2284"
+				type: "checkmark"
+			}]
+			title: "Aquamirae"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686FB5B93859A199"]
+			id: "4E6F02085A45FFB8"
+			rewards: [{
+				id: "7FD86A43CC5E5698"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Uma luta contra um chefe está incluída com o Aquamirae, e é com a Capitã Cornella. Para invocá-la, você precisará obter uma Concha do Capitão. Matar um Capitão, que pode ser encontrado em um navio em um bioma gelado específico, que deixará cair a Concha do Capitão."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3F4AEBF74D30D9B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["686FB5B93859A199"]
+			id: "140B18A51CBBFA06"
+			rewards: [{
+				id: "33A0BEA33836C95E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			subtitle: "Encontrado nas águas profundas do bioma gelado."
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					id: "aquamirae:maze_rose"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "obscure_api:distance"
+								lvl: 3s
+							}
+							{
+								id: "obscure_api:fast_spin"
+								lvl: 5s
+							}
+						]
+					}
+				}
+				id: "64BC8008FF1E2664"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "&cAquamirae"
+}

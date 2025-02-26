@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_otherside"
+	group: "7ED0E3931E016EA1"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "deeperdarker:heart_of_the_deep"
+	}
+	id: "7E803515D481705A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1
+			ForgeCaps: {
+				"celestisynth:celestisynthitemstackcapabilities": {
+					cs.aquaSkin: 0
+				}
+			}
+			id: "deeperdarker:heart_of_the_deep"
+		}
+		id: "18FC9FFC9EEBB2F5"
+		rewards: [
+			{
+				id: "0B658C45261C42A0"
+				type: "xp_levels"
+				xp_levels: 5
+			}
+			{
+				count: 10
+				id: "1AE1617F6BE72EAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cisco_mod:champion_coin"
+				}
+				type: "item"
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			dimension: "deeperdarker:otherside"
+			id: "406C396172EAA0B6"
+			type: "dimension"
+		}]
+		title: "Vá até Otherside!"
+		x: 0.5d
+		y: 0.5d
+	}]
+	title: "&3Otherside"
+}

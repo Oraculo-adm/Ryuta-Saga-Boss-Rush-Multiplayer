@@ -1,0 +1,36 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "born_in_chaos_v1:bagof_candy"
+	}
+	id: "431D8EFD36098789"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 20
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:champion_coin"
+			}
+			random_bonus: 10
+			weight: 5.0f
+		}
+		{
+			type: "xp"
+			weight: 95.0f
+			xp: 500
+		}
+	]
+	title: "Boss Rewards"
+}

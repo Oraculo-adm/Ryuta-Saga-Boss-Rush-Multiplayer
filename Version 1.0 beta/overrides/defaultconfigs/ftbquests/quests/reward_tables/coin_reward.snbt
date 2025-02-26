@@ -1,0 +1,46 @@
+{
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "born_in_chaos_v1:bagof_candy"
+	}
+	id: "1012B4FBF11F3E67"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 3
+			icon: "born_in_chaos_v1:bagof_candy"
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:champion_coin"
+			}
+			random_bonus: 3
+			weight: 80.0f
+		}
+		{
+			count: 10
+			icon: "born_in_chaos_v1:bagof_candy"
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cisco_mod:champion_coin"
+			}
+			random_bonus: 10
+		}
+	]
+	title: "Hunter Rewards"
+}

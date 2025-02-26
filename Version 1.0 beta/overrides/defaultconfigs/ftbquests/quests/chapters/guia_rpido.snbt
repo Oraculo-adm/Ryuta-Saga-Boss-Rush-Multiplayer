@@ -1,0 +1,46 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guia_rpido"
+	group: "18663B0CCCFF4771"
+	icon: {
+		Count: 1
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "terramity:terramity_guidebook"
+		}
+	}
+	id: "61B245D6C2246D1A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Neste modpack você encontrará &445+ chefes&r, cada um com suas próprias diferenças e peculiaridades. Seu objetivo é simples, derrote todos eles!"
+			""
+			"Durante sua jornada, você encontrará e criará vários itens novos, como &6espadas&r, &6armaduras&r, &6armas&r e muito mais."
+			""
+			"Voce tambem terá economia, onde poderá realizar &4caças&r para ganhar &6moedas&r, que serão usadas na &6loja&r, em troca de &bitens especiais e únicos&r!"
+			""
+			"Além disso, você terá uma aba de missões especiais que lhe apresentará alguns desses equipamentos, não deixe de conferir!"
+			""
+			"No mais é isso, &dboa sorte&r!"
+		]
+		icon: "terramity:hurricane_in_a_jar"
+		id: "4F6F9E46AC72F6A6"
+		rewards: [{
+			id: "7BA8D16996AECD09"
+			type: "xp"
+			xp: 100
+		}]
+		shape: "hexagon"
+		size: 3.0d
+		subtitle: "Leia isso!"
+		tasks: [{
+			id: "3148ED532D50B32E"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&aGuia"
+}
